@@ -7,11 +7,16 @@ By clicking on the extension icon or using the shortcut keys you can have a prev
 * Windows shortcut keys: Ctrl + Shift + U
 * Linux shortcut keys: Ctrl + Shift + U 
 
+##Features
+* Click on the button in toolbar to print preview
+* Use shortcuts to open the print preview
+* Enable or disable the context menu to print preview
+
 ## Requirements
 * Firefox 58.0 or later
 
 ## Version
-* Currently in the version 1.0
+* Currently in the version 1.1
 
 ## How Contribute
 Have a suggestion, doubt or encountered an error? Please open a new [issue](https://github.com/jhonatasrm/print-preview/issues).
