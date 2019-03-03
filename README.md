@@ -5,7 +5,7 @@ By clicking on the extension icon or using the shortcut keys you can have a prev
 
 * Mac shortcut keys: Command + Shift + U
 * Windows shortcut keys: Ctrl + Shift + U
-* Linux shortcut keys: Ctrl + Shift + U 
+* Linux shortcut keys: Ctrl + Shift + U
 
 ##Features
 * Click on the button in toolbar to print preview
