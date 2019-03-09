@@ -1,0 +1,60 @@
+{
+  "extensionName": {
+    "message": "Print Preview",
+    "description": "Extension name."
+  },
+  "extensionDescription": {
+    "message": "Esta extensão funciona mostrando uma pré-visualização antes da impressão. Isso pode ser feito clicando no botão na barra de ferramentas, teclas de atalho ou menu de contexto."
+  },
+  "extensionEnabled": {
+    "message": "Clique para uma pré-visualização"
+  },
+  "works": {
+    "message": "Ao clicar no ícone da extensão ou utilizar as teclas de atalho você poderá ter uma pré-visualização da página que está acessando antes de imprimir, proporcionando assim uma economia de papel além de evitar impressões repetidas, que certamente beneficiam o meio ambiente."
+  },
+  "about_title":{
+    "message": "Sobre"
+  },
+  "about":{
+    "message": "Sobre o Print Preview"
+  },
+  "note":{
+    "message": "Nota: Esta extensão é totalmente gratuita! Por favor, considere fazer uma pequena doação ou análise em addons.mozilla.org. Obrigado! "
+  },
+  "release0": {
+    "message": "Lançamento"
+  },
+  "release0d": {
+    "message": "v1.0 (15 de Fevereiro de 2019)"
+  },
+  "release1": {
+    "message": "Adicionado Menu de contexto \nAdicionada página de preferências"
+  },
+  "release1d": {
+    "message": "v1.1 (20 de Fevereiro de 2019)"
+  },
+  "changelog": {
+    "message": "Alterações"
+  },
+  "bugs": {
+    "message": "Se você encontrar algum bug, tiver sugestões ou algumas idéias para esta extensão. Por favor, crie uma nova issue."
+  },
+  "windows": {
+    "message": "Windows teclas de atalho: Ctrl + Shift + U"
+  },
+  "mac": {
+    "message": "Mac teclas de atalho: Command + Shift + U"
+  },
+  "linux": {
+    "message": "Linux teclas de atalho: Ctrl + Shift + U"
+  },
+  "contextMenu": {
+    "message": "Menu de contexto"
+  },
+  "preferences": {
+    "message": "Preferências"
+  },
+  "version": {
+    "message": "Print Preview (v1.1)"
+  }
+}

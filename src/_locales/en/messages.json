@@ -1,0 +1,60 @@
+{
+  "extensionName": {
+    "message": "Print Preview",
+    "description": "Extension name."
+  },
+  "extensionDescription": {
+    "message": "This add-on works by showing a preview before printing. That can be done by clicking the button on the toolbar, shortcut keys or context menu."
+  },
+  "extensionEnabled": {
+    "message": "Click for preview"
+  },
+  "works": {
+    "message": "By clicking on the extension icon or using the shortcut keys you can have a preview of the page you are accessing before printing, thus providing a paper economy in addition to avoiding repeated impressions, which certainly benefit the nature."
+  },
+  "about_title":{
+    "message": "About"
+  },
+  "about":{
+    "message": "About Print Preview"
+  },
+  "note":{
+    "message": "Note: This Add-on is completely free! Please consider make a small donation or write an review at addons.mozilla.org. Thank you!"
+  },
+  "release0": {
+    "message": "Release"
+  },
+  "release0d": {
+    "message": "v1.0 (February 15, 2019)"
+  },
+  "release1": {
+    "message": "Added Context menu \nAdded page preferences"
+  },
+  "release1d": {
+    "message": "v1.1 (February 20, 2019)"
+  },
+  "changelog": {
+    "message": "Changelog"
+  },
+  "bugs": {
+    "message": "If you find any bugs, have any suggestions or some ideas for this add-on: Please create a new issue."
+  },
+   "windows": {
+    "message": "Windows shortcut keys: Ctrl + Shift + U"
+  },
+  "mac": {
+    "message": "Mac shortcut keys: Command + Shift + U"
+  },
+  "linux": {
+    "message": "Linux shortcut keys: Ctrl + Shift + U"
+  },
+  "contextMenu": {
+    "message": "Context Menu"
+  },
+  "preferences": {
+    "message": "Preferences"
+  },
+  "version": {
+    "message": "Print Preview (v1.1)"
+  }
+}
