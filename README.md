@@ -1,3 +1,9 @@
+[<img align="right" src="https://img.shields.io/github/issues/jhonatasrm/print-preview.svg">](https://img.shields.io/github/license/jhonatasrm/print-preview.svg)
+[<img align="right" src="https://img.shields.io/github/license/jhonatasrm/print-preview.svg">](https://img.shields.io/github/issues/jhonatasrm/print-preview.svg)
+[<img align="right" src="https://img.shields.io/github/forks/jhonatasrm/print-preview.svg">](https://img.shields.io/github/issues/jhonatasrm/print-preview.svg)
+[<img align="right" src="https://img.shields.io/github/stars/jhonatasrm/print-preview.svg">](https://img.shields.io/github/stars/jhonatasrm/print-preview.svg)
+[<img align="right" src="https://img.shields.io/github/release/jhonatasrm/print-preview.svg">](https://img.shields.io/github/release/jhonatasrm/print-preview.svg)
+
 ![Print Preview](/src/res/icons/icon@2x.png)
 # Print Preview [<img align="right" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png">](https://addons.mozilla.org/en-US/firefox/addon/print-preview-/)
 
@@ -7,16 +13,13 @@ By clicking on the extension icon or using the shortcut keys you can have a prev
 * Windows shortcut keys: Ctrl + Shift + U
 * Linux shortcut keys: Ctrl + Shift + U
 
-##Features
+## Features
 * Click on the button in toolbar to print preview
 * Use shortcuts to open the print preview
 * Enable or disable the context menu to print preview
 
 ## Requirements
 * Firefox 58.0 or later
-
-## Version
-* Currently in the version 1.1
 
 ## How Contribute
 Have a suggestion, doubt or encountered an error? Please open a new [issue](https://github.com/jhonatasrm/print-preview/issues).
@@ -32,3 +35,7 @@ You can donate via PayPal <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_do
 
 ## Learn More 
 To learn more about webextensions development, see this [Mozilla developer Network documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions).
+
+## License
+This repository is available under the [Mozilla Public License, version 2.0](https://github.com/jhonatasrm/print-preview/blob/master/LICENSE)
+
