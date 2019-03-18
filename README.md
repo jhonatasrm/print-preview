@@ -15,12 +15,12 @@ By clicking on the extension icon or using the shortcut keys you can have a prev
 ## Requirements
 * Firefox 58.0 or later
 
-##Features
+## Features
  1. Click on the button in toolbar to print preview
  2. Enable or disable the context menu to print preview
  3. Use shortcuts to open the print preview
 
-##Shortcuts
+## Shortcuts
 * Mac shortcut keys: Command + Shift + U
 * Windows shortcut keys: Ctrl + Shift + U
 * Linux shortcut keys: Ctrl + Shift + U
