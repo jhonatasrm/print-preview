@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "__MSG_extensionName__",
 	"description": "__MSG_extensionDescription__",
-	"version": "1.1",
+	"version": "1.2",
 	"homepage_url": "https://github.com/jhonatasrm/print-preview",
 	"default_locale": "en",
 	"author": "Jhonatas Rodrigues",
@@ -18,7 +18,7 @@
 	"browser_action": {
 		"browser_style": true,
 		"default_icon": {
-			"32": "/res/icons/print_preview-32.png"
+			"32": "/res/icons/print-preview_32.png"
 		},
 		"default_title": "__MSG_extensionEnabled__"
 	},

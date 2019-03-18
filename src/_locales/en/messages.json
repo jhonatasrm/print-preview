@@ -21,21 +21,6 @@
   "note":{
     "message": "Note: This Add-on is completely free! Please consider make a small donation or write an review at addons.mozilla.org. Thank you!"
   },
-  "release0": {
-    "message": "Release"
-  },
-  "release0d": {
-    "message": "v1.0 (February 15, 2019)"
-  },
-  "release1": {
-    "message": "Added Context menu \nAdded page preferences"
-  },
-  "release1d": {
-    "message": "v1.1 (February 20, 2019)"
-  },
-  "changelog": {
-    "message": "Changelog"
-  },
   "bugs": {
     "message": "If you find any bugs, have any suggestions or some ideas for this add-on: Please create a new issue."
   },
@@ -51,10 +36,25 @@
   "contextMenu": {
     "message": "Context Menu"
   },
+  "shortcuts": {
+    "message": "Shortcuts"
+  },
   "preferences": {
     "message": "Preferences"
   },
+  "resources": {
+    "message": "The Add-on currently has the following features:"
+  },
+   "resources0": {
+    "message": "1. Click on the button in toolbar to Print Preview"
+  },
+  "resources1": {
+    "message": "2. Enable or disable the context menu to Print Preview"
+  },
+  "resources2": {
+    "message": "3. Use shortcuts to open the Print Preview"
+  },
   "version": {
-    "message": "Print Preview (v1.1)"
+    "message": "Print Preview (v1.2)"
   }
 }

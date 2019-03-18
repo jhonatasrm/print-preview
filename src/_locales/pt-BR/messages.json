@@ -21,21 +21,6 @@
   "note":{
     "message": "Nota: Esta extensão é totalmente gratuita! Por favor, considere fazer uma pequena doação ou análise em addons.mozilla.org. Obrigado! "
   },
-  "release0": {
-    "message": "Lançamento"
-  },
-  "release0d": {
-    "message": "v1.0 (15 de Fevereiro de 2019)"
-  },
-  "release1": {
-    "message": "Adicionado Menu de contexto \nAdicionada página de preferências"
-  },
-  "release1d": {
-    "message": "v1.1 (20 de Fevereiro de 2019)"
-  },
-  "changelog": {
-    "message": "Alterações"
-  },
   "bugs": {
     "message": "Se você encontrar algum bug, tiver sugestões ou algumas idéias para esta extensão. Por favor, crie uma nova issue."
   },
@@ -51,10 +36,25 @@
   "contextMenu": {
     "message": "Menu de contexto"
   },
+  "shortcuts": {
+    "message": "Atalhos"
+  },
   "preferences": {
     "message": "Preferências"
   },
+  "resources": {
+    "message": "A extensão possui atualmente os seguintes recursos:"
+  },
+  "resources0": {
+    "message": "1. Clique no botão na barra de ferramentas para pré-visualizar a impressão"
+  },
+  "resources1": {
+    "message": "2. Ativar ou desativar o menu de contexto para pré-visualizar a impressão"
+  },
+  "resources2": {
+    "message": "3. Use atalhos para abrir a pré-visualização de impressão"
+  },
   "version": {
-    "message": "Print Preview (v1.1)"
+    "message": "Print Preview (v1.2)"
   }
 }
