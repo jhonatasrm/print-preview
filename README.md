@@ -11,7 +11,6 @@ By clicking on the extension icon or using the shortcut keys you can have a prev
 
 ![Print Preview Screenshot](print-preview.gif)
 
-
 ## Requirements
 * Firefox 58.0 or later
 
