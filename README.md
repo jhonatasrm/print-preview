@@ -11,6 +11,10 @@ By clicking on the extension icon or using the shortcut keys you can have a prev
 
 ![Print Preview Screenshot](print-preview.gif)
 
+
+## Requirements
+* Firefox 58.0 or later
+
 ##Features
  1. Click on the button in toolbar to print preview
  2. Enable or disable the context menu to print preview
@@ -21,14 +25,12 @@ By clicking on the extension icon or using the shortcut keys you can have a prev
 * Windows shortcut keys: Ctrl + Shift + U
 * Linux shortcut keys: Ctrl + Shift + U
 
-## Requirements
-* Firefox 58.0 or later
-
-## Version
-* Currently in the version 1.1
-
 ## How Contribute
 Have a suggestion, doubt or encountered an error? Please open a new [issue](https://github.com/jhonatasrm/print-preview/issues).
 
 ## Learn More 
 To learn more about webextensions development, see this [Mozilla developer Network documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions).
+
+## License
+This repository is available under the [Mozilla Public License, version 2.0](https://github.com/jhonatasrm/print-preview/blob/master/LICENSE)
+
