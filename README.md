@@ -11,7 +11,6 @@ By clicking on the Add-on icon or using the shortcut keys you can have a preview
 
 ![Print Preview Screenshot](print-preview.gif)
 
-
 ## Requirements
 * Firefox 58.0 or later
 
