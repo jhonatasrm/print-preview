@@ -37,7 +37,7 @@
     "message": "Context Menu"
   },
   "shortcuts": {
-    "message": "Shortcuts"
+    "message": "Shortcuts (Default)"
   },
   "preferences": {
     "message": "Preferences"
@@ -54,7 +54,10 @@
   "resources2": {
     "message": "3. Use shortcuts to open the Print Preview"
   },
+  "resources3": {
+    "message": "4. You can edit the shortcuts in about:addons > Manage Extension Shortcuts\n\n"
+  },
   "version": {
-    "message": "Print Preview (v1.2)"
+    "message": "Print Preview (v1.3)"
   }
 }

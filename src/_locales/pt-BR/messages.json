@@ -37,7 +37,7 @@
     "message": "Menu de contexto"
   },
   "shortcuts": {
-    "message": "Atalhos"
+    "message": "Atalhos (Padrão)"
   },
   "preferences": {
     "message": "Preferências"
@@ -54,7 +54,10 @@
   "resources2": {
     "message": "3. Use atalhos para abrir a pré-visualização de impressão"
   },
+  "resources3": {
+    "message": "4. Você pode editar os atalhos em about:addons > Gerenciar atalhos de extensões\n\n"
+  },
   "version": {
-    "message": "Print Preview (v1.2)"
+    "message": "Print Preview (v1.3)"
   }
 }
