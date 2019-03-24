@@ -25,7 +25,7 @@
 	"commands": {
     "toggle-feature": {
       "suggested_key": { "default": "Ctrl+Shift+U" },
-      "description": "Send a 'toggle-feature' event to the extension"
+      "description": "__MSG_shortcut__"
     }
   },
 	"options_ui": {

@@ -39,6 +39,9 @@
   "shortcuts": {
     "message": "Shortcuts (Default)"
   },
+  "shortcut": {
+    "message": "Shortcut to Print Preview"
+  },
   "preferences": {
     "message": "Preferences"
   },

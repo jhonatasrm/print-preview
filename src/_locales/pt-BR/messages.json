@@ -39,6 +39,9 @@
   "shortcuts": {
     "message": "Atalhos (Padrão)"
   },
+   "shortcut": {
+    "message": "Atalho para pré-visualização"
+  },
   "preferences": {
     "message": "Preferências"
   },
