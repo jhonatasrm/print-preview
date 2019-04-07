@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "extensionDescription": {
-    "message": "This add-on works by showing a preview before printing. That can be done by clicking the button on the toolbar, shortcut keys or context menu."
+    "message": "This Add-on works by showing a preview before printing. That can be done by clicking the button on the toolbar, shortcut keys or context menu."
   },
   "extensionEnabled": {
     "message": "Click to preview"
@@ -22,7 +22,7 @@
     "message": "Note: This Add-on is completely free! Please consider make a small donation or write an review at addons.mozilla.org. Thank you!"
   },
   "bugs": {
-    "message": "If you find any bugs, have any suggestions or some ideas for this add-on: Please create a new issue."
+    "message": "If you find any bugs, have any suggestions or some ideas for this Add-on: Please create a new issue."
   },
    "windows": {
     "message": "Windows shortcut keys: Ctrl + Shift + U"
@@ -58,7 +58,7 @@
     "message": "3. Use shortcuts to open the Print Preview"
   },
   "resources3": {
-    "message": "4. You can edit the shortcuts in about:addons > Manage Extension Shortcuts\n\n"
+    "message": "4. You can edit the shortcuts in about:addons > Manage Extension Shortcuts (Firefox version 66.0 or later)\n\n"
   },
   "version": {
     "message": "Print Preview (v1.3)"
