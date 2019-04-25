@@ -26,10 +26,10 @@ By clicking on the Add-on icon or using the shortcut keys you can have a preview
 * Linux shortcut keys: Ctrl + Shift + U
 
 ## How Contribute
-Have a suggestion, doubt or encountered an error? Please open a new [issue](https://github.com/jhonatasrm/print-preview/issues).
+Have a suggestion, doubt or encountered an error? Please open a new [issue](https://github.com/jhonatasrm/print-preview/issues)
 
 ## Learn More 
-To learn more about webextensions development, see this [Mozilla developer Network documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions).
+To learn more about webextensions development, see this [Mozilla developer Network documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions)
 
 ## License
 This repository is available under the [Mozilla Public License, version 2.0](https://github.com/jhonatasrm/print-preview/blob/master/LICENSE)
