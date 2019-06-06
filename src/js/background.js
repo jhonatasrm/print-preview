@@ -6,9 +6,6 @@ browser.browserAction.onClicked.addListener(() => {
 
 // start about.html
 function handleInstalled(details) {
-if (localStorage.getItem('contextMenu') == null || localStorage.getItem('contextMenu') == "True"){
-    startContextMenu();
-}
 browser.tabs.create({
     url: "../html/about.html"
 });
@@ -23,15 +20,11 @@ function onCreated() {
 }
 
 function startContextMenu(){
-    if(localStorage.getItem('contextMenu') == "True" || localStorage.getItem('contextMenu') == null){
         browser.menus.create({
         id: "print-preview",
         title: "Print Preview",
         contexts: ["all"]
     }, onCreated);
-    }else{
-        browser.menus.remove("print-preview");
-    }
 }
 
 browser.menus.onClicked.addListener((info, tab) => {

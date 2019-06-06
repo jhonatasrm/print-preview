@@ -1,8 +1,8 @@
-[<img align="right" src="https://img.shields.io/github/issues/jhonatasrm/print-preview.svg">](https://img.shields.io/github/issues/jhonatasrm/print-preview.svg)
-[<img align="right" src="https://img.shields.io/github/license/jhonatasrm/print-preview.svg">](https://img.shields.io/github/license/jhonatasrm/print-preview.svg)
+[<img align="right" src="https://img.shields.io/github/issues/jhonatasrm/print-preview.svg">](http://github.com/jhonatasrm/print-preview/issues/)
+[<img align="right" src="https://img.shields.io/github/license/jhonatasrm/print-preview.svg">](https://github.com/jhonatasrm/print-preview/blob/master/LICENSE)
 [<img align="right" src="https://img.shields.io/github/forks/jhonatasrm/print-preview.svg">](https://img.shields.io/github/forks/jhonatasrm/print-preview.svg)
 [<img align="right" src="https://img.shields.io/github/stars/jhonatasrm/print-preview.svg">](https://img.shields.io/github/stars/jhonatasrm/print-preview.svg)
-[<img align="right" src="https://img.shields.io/github/release/jhonatasrm/print-preview.svg">](https://img.shields.io/github/release/jhonatasrm/print-preview.svg)
+[<img align="right" src="https://img.shields.io/github/release/jhonatasrm/print-preview.svg">](https://github.com/jhonatasrm/print-preview/releases)
 
 ![Print Preview](/src/res/icons/icon@2x.png)
 # Print Preview <a href='https://ko-fi.com/S6S5S3WU' target='_blank'><img align="right" height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com'/></a>[<img align="right" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png">](https://addons.mozilla.org/en-US/firefox/addon/print-preview-/)
