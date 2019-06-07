@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title id="preferencesTitle" data-i18n="preferences"></title>
-  <link rel="shortcut icon" href="../res/icons/favicon.ico" type="image/x-icon"/>
-  <link rel="icon" href="../res/icons/favicon.ico" type="image/x-icon"/>
-  <link href="../css/bootstrap.min.css" rel="stylesheet"/>
-  <link href="../css/style.css" rel="stylesheet"/>
-  <script src="../js/jquery-3.3.1.js"></script>
-  <script src="../js/preferences.js"></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title id="preferencesTitle" data-i18n="preferences"></title>
+    <link rel="shortcut icon" href="../res/icons/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="../res/icons/favicon.ico" type="image/x-icon"/>
+    <link href="../css/bootstrap.css" rel="stylesheet"/>
+    <link href="../css/style.css" rel="stylesheet"/>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/sweetAlert.js"></script>
 </head>
 
 <body style="background-color:white;" class="col-md-12">
@@ -27,20 +27,25 @@
       </ul>
     </nav>
   </header>
-    <fieldset class="col-md-12">
-      <div>
-        <h4><strong id="settings" data-i18n="settings"></strong>
-          <a href="../html/about.html" title="About" ><img src="../res/icons/about.png" style="float:right;"></a></h4>
-      </div><br>
-      <div class="col-md-12 col-sm-12">
-        <label data-i18n="contextMenu"></label>
-        <label class="btn btn-outline-primary " style="width:150px;float:right;">
-          <input type="radio" name="contextMenu" value="False" checked="checked">Off</label>
-        <label class="btn btn-outline-primary " style="width:150px;float:right;">
-          <input type="radio" name="contextMenu" value="True">On</label>
+  <fieldset class="col-md-12">
+    <div>
+      <h4><strong id="preferences" data-i18n="preferences"></strong>
+        <a href="../html/about.html" title="About" ><img src="../res/icons/about.png" style="float:right;"></a></h4>
+    </div><br>
+    <form>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="contextMenu">
+        <label class="custom-control-label" data-i18n="contextMenu" for="contextMenu"></label>
       </div>
-    </fieldset>
+      <small class="form-text text-muted" data-i18n="description_contextmenu"></small>
+
+      <div class="col-md-12" style="text-align: center; margin-top:10px;">
+        <button type="submit" class="btn btn-primary" data-i18n="save_preferences" style="float:right;"></button>
+      </div>
+    </form>
+  </fieldset>
 </main>
 <script src="../js/language.js"></script>
+<script src="../js/preferences.js"></script>
 </body>
 </html>

@@ -1,16 +1,43 @@
-// contextMenu radio
 var backgroundPage = browser.extension.getBackgroundPage();
+const contextMenuId = document.getElementById("contextMenu");
 
-$(document).ready(function(){
-  var radios = document.getElementsByName("contextMenu");
-  var val = localStorage.getItem('contextMenu');
-  for(var i=0;i<radios.length;i++){
-    if(radios[i].value == val){
-      radios[i].checked = true;
+function loadPreferences() {
+    function defineContextMenu(data) {
+        if (data.contextMenu == true) {
+            contextMenuId.checked = true;
+        }else {
+            contextMenuId.checked = false;
+        }
     }
-  }
-$('input[name="contextMenu"]').on('change', function(){
-    localStorage.setItem('contextMenu', $(this).val());
-    backgroundPage.startContextMenu();
-  });
-});
+    function onError(error) {
+        console.log(`Error: ${error}`);
+    }
+
+    var promiseContextMenu = browser.storage.local.get("contextMenu");
+    promiseContextMenu.then(defineContextMenu, onError);
+
+}
+
+function savePreferences(e) {
+    e.preventDefault();
+
+    let preferences = {
+        contextMenu: document.getElementById("contextMenu").checked,
+    };
+
+    browser.storage.local.set(preferences);
+
+    Swal.fire({
+        position: 'top',
+        type: 'success',
+        title: browser.i18n.getMessage('saved_preferences'),
+        showConfirmButton: false,
+        timer: 1500
+    })
+
+    backgroundPage.startContextMenu(preferences);
+    console.log(preferences);
+}
+
+document.addEventListener("DOMContentLoaded", loadPreferences);
+document.querySelector("form").addEventListener("submit", savePreferences);
