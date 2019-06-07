@@ -34,7 +34,7 @@
     "message": "Linux shortcut keys: Ctrl + Shift + U"
   },
   "contextMenu": {
-    "message": "Context Menu"
+    "message": "Context menu"
   },
   "shortcuts": {
     "message": "Shortcuts (Default)"
@@ -67,7 +67,7 @@
     "message": "Preferences saved!"
   },
   "description_contextmenu": {
-    "message": "Allow or not the context menu"
+    "message": "Allow or not the Context menu"
   },
   "change_shortcuts": {
     "message": "Change shortcuts"
@@ -82,6 +82,6 @@
     "message": "Click in <i>Manage Extension Shortcuts</i>"
   },
   "version": {
-    "message": "Print Preview (v1.4)"
+    "message": "Print Preview (v1.4.1)"
   }
 }

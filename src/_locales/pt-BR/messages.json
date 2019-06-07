@@ -64,7 +64,7 @@
     "message": "Salvar preferências"
   },
   "description_contextmenu": {
-    "message": "Permite ou não o menu de contexto"
+    "message": "Permite ou não o Menu de contexto"
   },
   "saved_preferences": {
     "message": "Preferências salvas!"
@@ -82,6 +82,6 @@
     "message": "Clique em <i>Gerenciar atalhos de extensões</i>"
   },
   "version": {
-    "message": "Print Preview (v1.4)"
+    "message": "Print Preview (v1.4.1)"
   }
 }
