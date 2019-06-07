@@ -60,7 +60,16 @@
   "resources3": {
     "message": "4. Você pode editar os atalhos em about:addons > Gerenciar atalhos de extensões (Firefox versão 66.0 +)\n\n"
   },
+  "save_preferences": {
+    "message": "Salvar preferências"
+  },
+  "description_contextmenu": {
+    "message": "Permite ou não o menu de contexto"
+  },
+  "saved_preferences": {
+    "message": "Preferências salvas"
+  },
   "version": {
-    "message": "Print Preview (v1.3)"
+    "message": "Print Preview (v1.4)"
   }
 }

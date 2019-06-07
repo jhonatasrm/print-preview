@@ -5,13 +5,11 @@ browser.browserAction.onClicked.addListener(() => {
 });
 
 // start about.html
-function handleInstalled(details) {
-if (localStorage.getItem('contextMenu') == null || localStorage.getItem('contextMenu') == "True"){
-    startContextMenu();
-}
-browser.tabs.create({
-    url: "../html/about.html"
-});
+function handleInstalled() {
+    browser.storage.local.clear();
+    browser.tabs.create({
+        url: "../html/about.html"
+    });
 }
 
 function onCreated() {
@@ -22,8 +20,8 @@ function onCreated() {
   }
 }
 
-function startContextMenu(){
-    if(localStorage.getItem('contextMenu') == "True" || localStorage.getItem('contextMenu') == null){
+function startContextMenu(data){
+    if(data.contextMenu == true){
         browser.menus.create({
         id: "print-preview",
         title: "Print Preview",

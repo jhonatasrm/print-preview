@@ -60,7 +60,16 @@
   "resources3": {
     "message": "4. You can edit the shortcuts in about:addons > Manage Extension Shortcuts (Firefox version 66.0 or later)\n\n"
   },
+  "save_preferences": {
+    "message": "Save preferences"
+  },
+  "saved_preferences": {
+    "message": "Saved preferences"
+  },
+  "description_contextmenu": {
+    "message": "Allow or not the context menu"
+  },
   "version": {
-    "message": "Print Preview (v1.3)"
+    "message": "Print Preview (v1.4)"
   }
 }
