@@ -4,9 +4,10 @@ browser.browserAction.onClicked.addListener(() => {
   browser.tabs.printPreview()
 });
 
+startContextMenu();
+
 // start about.html
 function handleInstalled() {
-    browser.storage.local.clear();
     browser.tabs.create({
         url: "../html/about.html"
     });
@@ -20,13 +21,13 @@ function onCreated() {
   }
 }
 
-function startContextMenu(data){
-    if(data.contextMenu == true){
-        browser.menus.create({
-        id: "print-preview",
-        title: "Print Preview",
-        contexts: ["all"]
-    }, onCreated);
+function startContextMenu(){
+    if(localStorage.getItem("loadMyPreferences") == "true"){
+           browser.menus.create({
+             id: "print-preview",
+             title: "Print Preview",
+             contexts: ["all"]
+           }, onCreated);
     }else{
         browser.menus.remove("print-preview");
     }

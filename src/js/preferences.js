@@ -1,31 +1,22 @@
 var backgroundPage = browser.extension.getBackgroundPage();
 const contextMenuId = document.getElementById("contextMenu");
+var promiseContextMenu;
 
 function loadPreferences() {
-    function defineContextMenu(data) {
-        if (data.contextMenu == true) {
-            contextMenuId.checked = true;
-        }else {
-            contextMenuId.checked = false;
-        }
+    if (localStorage.getItem("loadMyPreferences") == "true"){
+         contextMenuId.checked = true;
+    }else if (window.localStorage.getItem("loadMyPreferences") == "false"){
+         contextMenuId.checked = false;
+    }else{
+         contextMenuId.checked = false;
     }
-    function onError(error) {
-        console.log(`Error: ${error}`);
-    }
-
-    var promiseContextMenu = browser.storage.local.get("contextMenu");
-    promiseContextMenu.then(defineContextMenu, onError);
-
+    backgroundPage.startContextMenu();
 }
 
 function savePreferences(e) {
     e.preventDefault();
 
-    let preferences = {
-        contextMenu: document.getElementById("contextMenu").checked,
-    };
-
-    browser.storage.local.set(preferences);
+    localStorage.setItem("loadMyPreferences", contextMenuId.checked);
 
     Swal.fire({
         position: 'top',
@@ -35,8 +26,7 @@ function savePreferences(e) {
         timer: 1500
     })
 
-    backgroundPage.startContextMenu(preferences);
-    console.log(preferences);
+    backgroundPage.startContextMenu();
 }
 
 document.addEventListener("DOMContentLoaded", loadPreferences);
