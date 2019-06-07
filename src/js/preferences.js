@@ -8,7 +8,6 @@ function loadPreferences() {
         }else {
             contextMenuId.checked = false;
         }
-        backgroundPage.startContextMenu(data);
     }
     function onError(error) {
         console.log(`Error: ${error}`);
@@ -33,7 +32,7 @@ function savePreferences(e) {
         type: 'success',
         title: browser.i18n.getMessage('saved_preferences'),
         showConfirmButton: false,
-        timer: 1000
+        timer: 1500
     })
 
     backgroundPage.startContextMenu(preferences);
