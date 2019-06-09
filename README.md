@@ -18,12 +18,17 @@ By clicking on the Add-on icon or using the shortcut keys you can have a preview
  1. Click on the button in toolbar to print preview
  2. Enable or disable the context menu to print preview
  3. Use shortcuts to open the print preview
- 4. You can edit the shortcuts in about:addons > Manage Extension Shortcuts (Firefox 66.0 or later)
+ 4. You can edit the shortcuts in about:addons (Firefox version 66.0 or later) 
 
 ## Shortcuts (Default)
 * Mac shortcut keys: Command + Shift + U
 * Windows shortcut keys: Ctrl + Shift + U
 * Linux shortcut keys: Ctrl + Shift + U
+
+## Change shortcuts
+* In your address bar type "about:addons"
+* Click the gear above the installed Add-ons
+* Click in "Manage Extension Shortcuts"
 
 ## How Contribute
 Have a suggestion, doubt or encountered an error? Please open a new [issue](https://github.com/jhonatasrm/print-preview/issues)
