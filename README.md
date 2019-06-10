@@ -1,7 +1,7 @@
 [<img align="right" src="https://img.shields.io/github/issues/jhonatasrm/print-preview.svg">](http://github.com/jhonatasrm/print-preview/issues/)
 [<img align="right" src="https://img.shields.io/github/license/jhonatasrm/print-preview.svg">](https://github.com/jhonatasrm/print-preview/blob/master/LICENSE)
-[<img align="right" src="https://img.shields.io/github/forks/jhonatasrm/print-preview.svg">](https://img.shields.io/github/forks/jhonatasrm/print-preview.svg)
-[<img align="right" src="https://img.shields.io/github/stars/jhonatasrm/print-preview.svg">](https://img.shields.io/github/stars/jhonatasrm/print-preview.svg)
+[<img align="right" src="https://img.shields.io/github/forks/jhonatasrm/print-preview.svg">]()
+[<img align="right" src="https://img.shields.io/github/stars/jhonatasrm/print-preview.svg">]()
 [<img align="right" src="https://img.shields.io/github/release/jhonatasrm/print-preview.svg">](https://github.com/jhonatasrm/print-preview/releases)
 
 ![Print Preview](/src/res/icons/icon@2x.png)
