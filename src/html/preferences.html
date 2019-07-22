@@ -8,7 +8,6 @@
     <link rel="icon" href="../res/icons/favicon.ico" type="image/x-icon"/>
     <link href="../css/bootstrap.css" rel="stylesheet"/>
     <link href="../css/style.css" rel="stylesheet"/>
-    <script src="../js/sweetAlert.js"></script>
 </head>
 
 <body style="background-color:white;" class="col-md-12">
@@ -26,12 +25,15 @@
       </ul>
     </nav>
   </header>
+    <div class="alert alert-success alert-dismissible fade show" style="display:none;" id="success">
+         <strong data-i18n="saved_preferences"></strong>
+        <button type="button" class="close" data-dismiss="alert"></button>
+    </div>
   <fieldset class="col-md-12">
     <div>
       <h4><strong id="preferences" data-i18n="preferences"></strong>
         <a href="../html/about.html" title="About" ><img src="../res/icons/about.png" style="float:right;"></a></h4>
     </div><br>
-    <form>
       <div class="custom-control custom-checkbox">
         <input type="checkbox" class="custom-control-input" id="contextMenu">
         <label class="custom-control-label" data-i18n="contextMenu" for="contextMenu"></label>
@@ -39,9 +41,8 @@
       <small class="form-text text-muted" data-i18n="description_contextmenu"></small>
 
       <div class="col-md-12" style="text-align: center; margin-top:10px;">
-        <button type="submit" class="btn btn-primary" data-i18n="save_preferences" style="float:right;"></button>
+        <button type="submit" class="btn btn-primary" data-i18n="save_preferences" style="float:right;" id="save_preferences"></button>
       </div>
-    </form>
   </fieldset>
 </main>
 <script src="../js/language.js"></script>

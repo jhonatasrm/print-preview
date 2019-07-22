@@ -1,17 +1,8 @@
-browser.runtime.onInstalled.addListener(handleInstalled);
-
 browser.browserAction.onClicked.addListener(() => {
   browser.tabs.printPreview()
 });
 
 startContextMenu();
-
-// start about.html
-function handleInstalled() {
-    browser.tabs.create({
-        url: "../html/about.html"
-    });
-}
 
 function onCreated() {
   if (browser.runtime.lastError) {
