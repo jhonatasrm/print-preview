@@ -1,6 +1,9 @@
 var backgroundPage = browser.extension.getBackgroundPage();
 const contextMenuId = document.getElementById("contextMenu");
+var success = document.getElementById("success");
+var savePreferences = document.getElementById("save_preferences");
 var promiseContextMenu;
+var setSuccess;
 
 function loadPreferences() {
     if (localStorage.getItem("loadMyPreferences") == "true"){
@@ -13,21 +16,11 @@ function loadPreferences() {
     backgroundPage.startContextMenu();
 }
 
-function savePreferences(e) {
-    e.preventDefault();
-
+savePreferences.addEventListener('click', function(){
+    success.style.display = "block";
+    setTimeout(function(){ success.style.display = "none"; }, 1500);
     localStorage.setItem("loadMyPreferences", contextMenuId.checked);
-
-    Swal.fire({
-        position: 'top',
-        type: 'success',
-        title: browser.i18n.getMessage('saved_preferences'),
-        showConfirmButton: false,
-        timer: 1500
-    })
-
     backgroundPage.startContextMenu();
-}
+}, false);
 
 document.addEventListener("DOMContentLoaded", loadPreferences);
-document.querySelector("form").addEventListener("submit", savePreferences);

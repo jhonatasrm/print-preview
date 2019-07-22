@@ -19,10 +19,10 @@
     "message": "Sobre o Print Preview"
   },
   "note":{
-    "message": "Nota: Esta extensão é totalmente gratuita! Por favor, considere fazer uma pequena <a href='https://www.ko-fi.com/jhonatasrm'>doação</a> ou análise em <a href='https://addons.mozilla.org/pt-BR/firefox/addon/print-preview-/'>addons.mozilla.org</a>. Obrigado! "
+    "message": "Nota: Esta extensão é totalmente gratuita! Por favor, considere fazer uma pequena doação ou análise em addons.mozilla.org. Obrigado! "
   },
   "bugs": {
-    "message": "Se você encontrar algum bug, tiver sugestões ou algumas idéias para esta extensão. Por favor, crie uma nova <a href='https://github.com/jhonatasrm/print-preview/issues'>issue</a>."
+    "message": "Se você encontrar algum bug, tiver sugestões ou algumas idéias para esta extensão. Por favor, crie uma nova issue."
   },
   "windows": {
     "message": "Windows teclas de atalho: Ctrl + Shift + U"
@@ -46,7 +46,7 @@
     "message": "Preferências"
   },
   "resources": {
-    "message": "<b>A extensão possui atualmente os seguintes recursos:</b>"
+    "message": "A extensão possui atualmente os seguintes recursos:"
   },
   "resources0": {
     "message": "1. Clique no botão na barra de ferramentas para pré-visualizar a impressão"
@@ -73,15 +73,15 @@
     "message": "Mudar atalhos"
   },
   "change_shortcut1": {
-    "message": "Na sua barra de endereços digite <b>about:addons</b>"
+    "message": "Na sua barra de endereços digite about:addons"
   },
   "change_shortcut2": {
     "message": "Clique na engrenagem acima das extensões instaladas"
   },
   "change_shortcut3": {
-    "message": "Clique em <i>Gerenciar atalhos de extensões</i>"
+    "message": "Clique em Gerenciar atalhos de extensões"
   },
   "version": {
-    "message": "Print Preview (v1.4.1)"
+    "message": "Print Preview (v1.4.2)"
   }
 }
