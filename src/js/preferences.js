@@ -5,6 +5,10 @@ var savePreferences = document.getElementById("save_preferences");
 var promiseContextMenu;
 var setSuccess;
 
+// version
+var version = document.getElementById("version");
+version.textContent = browser.runtime.getManifest().name + " (v"+ browser.runtime.getManifest().version + ")";
+
 function loadPreferences() {
     if (localStorage.getItem("loadMyPreferences") == "true"){
          contextMenuId.checked = true;
