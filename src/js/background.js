@@ -2,6 +2,10 @@ browser.browserAction.onClicked.addListener(() => {
   browser.tabs.printPreview()
 });
 
+if (localStorage.getItem('contextMenu') == 'undefined' || localStorage.getItem('contextMenu') == null){
+    localStorage.setItem('contextMenu', false);
+}
+
 startContextMenu();
 
 function onCreated() {
@@ -13,7 +17,7 @@ function onCreated() {
 }
 
 function startContextMenu(){
-    if(localStorage.getItem("loadMyPreferences") == "true"){
+    if(localStorage.getItem("contextMenu") == "true"){
            browser.menus.create({
              id: "print-preview",
              title: "Print Preview",

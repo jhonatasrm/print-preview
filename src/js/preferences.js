@@ -9,22 +9,16 @@ var setSuccess;
 var version = document.getElementById("version");
 version.textContent = browser.runtime.getManifest().name + " (v"+ browser.runtime.getManifest().version + ")";
 
-function loadPreferences() {
-    if (localStorage.getItem("loadMyPreferences") == "true"){
-         contextMenuId.checked = true;
-    }else if (window.localStorage.getItem("loadMyPreferences") == "false"){
-         contextMenuId.checked = false;
-    }else{
-         contextMenuId.checked = false;
+ $(document).ready(function(){
+  var radios = document.getElementsByName("contextMenu");
+  var val = localStorage.getItem('contextMenu');
+  for(var i=0;i<radios.length;i++){
+    if(radios[i].value == val){
+      radios[i].checked = true;
     }
+  }
+$('input[name="contextMenu"]').on('change', function(){
+    localStorage.setItem('contextMenu', $(this).val());
     backgroundPage.startContextMenu();
-}
-
-savePreferences.addEventListener('click', function(){
-    success.style.display = "block";
-    setTimeout(function(){ success.style.display = "none"; }, 1500);
-    localStorage.setItem("loadMyPreferences", contextMenuId.checked);
-    backgroundPage.startContextMenu();
-}, false);
-
-document.addEventListener("DOMContentLoaded", loadPreferences);
+  });
+});
