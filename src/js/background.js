@@ -5,7 +5,6 @@ browser.browserAction.onClicked.addListener(() => {
 if (localStorage.getItem('contextMenu') == 'undefined' || localStorage.getItem('contextMenu') == null){
     localStorage.setItem('contextMenu', false);
 }
-
 startContextMenu();
 
 function onCreated() {
