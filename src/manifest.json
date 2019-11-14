@@ -1,46 +1,62 @@
 {
-	"manifest_version": 2,
-	"name": "__MSG_extensionName__",
-	"description": "__MSG_extensionDescription__",
-	"version": "1.5.0",
-	"homepage_url": "https://github.com/jhonatasrm/print-preview",
-	"default_locale": "en",
-	"author": "Jhonatas Rodrigues",
-	"applications": {
-		"gecko": {
-			"strict_min_version": "58.0"
-		}
-	},
-	"icons": {
-		"48": "/res/icons/icon.png",
-		"96": "/res/icons/icon@2x.png"
-	},
-	"browser_action": {
-		"browser_style": true,
-		"default_icon": {
-			"32": "/res/icons/print-preview_32.png"
-		},
-		"default_title": "__MSG_extensionEnabled__"
-	},
-	"commands": {
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.5.1",
+  "homepage_url": "https://github.com/jhonatasrm/print-preview",
+  "default_locale": "en",
+  "author": "Jhonatas Rodrigues",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "58.0"
+    }
+  },
+  "icons": {
+    "16": "/res/icons/print_dark_theme.svg",
+    "32": "/res/icons/icon.png",
+    "48": "/res/icons/icon.png",
+    "96": "/res/icons/icon@2x.png"
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "/res/icons/icon@2x.png",
+    "theme_icons": [
+      {
+        "light": "/res/icons/print_light_theme.svg",
+        "dark": "/res/icons/print_dark_theme.svg",
+        "size": 16
+      },
+      {
+        "light": "/res/icons/print_light_theme.svg",
+        "dark": "/res/icons/print_dark_theme.svg",
+        "size": 32
+      }
+    ],
+    "default_title": "__MSG_extensionEnabled__"
+  },
+  "commands": {
     "toggle-feature": {
-      "suggested_key": { "default": "Ctrl+Shift+U" },
+      "suggested_key": {
+        "default": "Ctrl+Shift+U"
+      },
       "description": "__MSG_shortcut__"
     }
   },
-	"options_ui": {
-		"browser_style": false,
-		"open_in_tab": true,
-		"page": "html/preferences.html"
-	},
-	"background": {
-		"scripts": ["/js/background.js"]
-	},
-	"permissions": [
-		"tabs",
-		"contextMenus",
-		"activeTab",
-		"storage",
-		"menus"
-	]
+  "options_ui": {
+    "browser_style": false,
+    "open_in_tab": true,
+    "page": "html/preferences.html"
+  },
+  "background": {
+    "scripts": [
+      "/js/background.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "activeTab",
+    "storage",
+    "menus"
+  ]
 }
