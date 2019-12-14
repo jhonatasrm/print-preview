@@ -73,12 +73,12 @@
     "message": "Change shortcuts"
   },
     "change_shortcut1": {
-    "message": "In your address bar type about:addons"
+    "message": "1. In your address bar type about:addons"
   },
   "change_shortcut2": {
-    "message": "Click the gear above the installed Add-ons"
+    "message": "2. Click the gear above the installed Add-ons"
   },
   "change_shortcut3": {
-    "message": "Click in Manage Extension Shortcuts"
+    "message": "3. Click in Manage Extension Shortcuts"
   }
 }

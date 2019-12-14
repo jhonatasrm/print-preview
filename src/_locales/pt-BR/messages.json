@@ -73,12 +73,12 @@
     "message": "Mudar atalhos"
   },
   "change_shortcut1": {
-    "message": "Na sua barra de endereços digite about:addons"
+    "message": "1. Na sua barra de endereços digite about:addons"
   },
   "change_shortcut2": {
-    "message": "Clique na engrenagem acima das extensões instaladas"
+    "message": "2. Clique na engrenagem acima das extensões instaladas"
   },
   "change_shortcut3": {
-    "message": "Clique em Gerenciar atalhos de extensões"
+    "message": "3. Clique em Gerenciar atalhos de extensões"
   }
 }
