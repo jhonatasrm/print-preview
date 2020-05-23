@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "homepage_url": "https://github.com/jhonatasrm/print-preview",
   "default_locale": "en",
   "author": "Jhonatas Machado",
@@ -48,15 +48,7 @@
     "page": "html/preferences.html"
   },
   "background": {
-    "scripts": [
-      "/js/background.js"
-    ]
+    "scripts": ["/js/background.js"]
   },
-  "permissions": [
-    "tabs",
-    "contextMenus",
-    "activeTab",
-    "storage",
-    "menus"
-  ]
+  "permissions": ["tabs", "contextMenus", "activeTab", "storage", "menus"]
 }
