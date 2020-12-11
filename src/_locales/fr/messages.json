@@ -1,0 +1,84 @@
+{
+    "extensionName": {
+      "message": "Print Preview",
+      "description": "Extension name."
+    },
+    "extensionDescription": {
+      "message": "This Add-on works by showing a preview before printing. That can be done by clicking the button on the toolbar, shortcut keys or context menu."
+    },
+    "extensionEnabled": {
+      "message": "Click to preview"
+    },
+    "works": {
+      "message": "By clicking on the Add-on icon or using the shortcut keys you can have a preview of the page you are accessing before printing, thus providing a paper economy in addition to avoiding repeated impressions, which certainly benefit the nature."
+    },
+    "about_title":{
+      "message": "About"
+    },
+    "about":{
+      "message": "About Print Preview"
+    },
+    "note":{
+      "message": "Note: This Add-on is completely free! Please consider make a small donation or write an review at addons.mozilla.org. Thank you!"
+    },
+    "bugs": {
+      "message": "If you find any bugs, have any suggestions or some ideas for this Add-on: Please create a new issue."
+    },
+     "windows": {
+      "message": "Windows shortcut keys: Ctrl + Shift + U"
+    },
+    "mac": {
+      "message": "Mac shortcut keys: Command + Shift + U"
+    },
+    "linux": {
+      "message": "Linux shortcut keys: Ctrl + Shift + U"
+    },
+    "contextMenu": {
+      "message": "Context menu"
+    },
+    "shortcuts": {
+      "message": "Shortcuts (Default)"
+    },
+    "shortcut": {
+      "message": "Shortcut to Print Preview"
+    },
+    "preferences": {
+      "message": "Preferences"
+    },
+    "resources": {
+      "message": "The Add-on currently has the following features:"
+    },
+     "resources0": {
+      "message": "1. Click on the button in toolbar to Print Preview"
+    },
+    "resources1": {
+      "message": "2. Enable or disable the context menu to Print Preview"
+    },
+    "resources2": {
+      "message": "3. Use shortcuts to open the Print Preview"
+    },
+    "resources3": {
+      "message": "4. You can edit the shortcuts in about:addons (Firefox version 66.0 or later)\n\n"
+    },
+    "save_preferences": {
+      "message": "Save preferences"
+    },
+    "saved_preferences": {
+      "message": "Preferences saved!"
+    },
+    "description_contextmenu": {
+      "message": "Allow or not the Context menu"
+    },
+    "change_shortcuts": {
+      "message": "Change shortcuts"
+    },
+      "change_shortcut1": {
+      "message": "1. In your address bar type about:addons"
+    },
+    "change_shortcut2": {
+      "message": "2. Click the gear above the installed Add-ons"
+    },
+    "change_shortcut3": {
+      "message": "3. Click in Manage Extension Shortcuts"
+    }
+  }
