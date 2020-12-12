@@ -4,7 +4,7 @@
     "description": "Nom de l'extension"
   },
   "extensionDescription": {
-    "message": "Cet Add-on fonctionne en affichant un aperçu avant l'impression. Cela peut être fait en cliquant sur le bouton de la barre d'outils, des touches de raccourci ou du menu contextuel. ""
+    "message": "Cet Add-on fonctionne en affichant un aperçu avant l'impression. Cela peut être fait en cliquant sur le bouton de la barre d'outils, des touches de raccourci ou du menu contextuel."
   },
   "extensionEnabled": {
     "message": "Cliquer pour l'aperçu"
@@ -20,10 +20,10 @@
   },
   "note":{
    
-	"message": "Remarque: Cet Add-on est entièrement gratuit! Merci d'envisager de faire un petit don ou d'écrire un commentaire sur addons.mozilla.org. Merci!"
+  "message": "Remarque: Cet Add-on est entièrement gratuit! Merci d'envisager de faire un petit don ou d'écrire un commentaire sur addons.mozilla.org. Merci!"
   },
   "bugs": {
-	"message": "Si vous trouvez des erreur, avez des suggestions ou des idées pour ce module complémentaire: veuillez créer un nouveau problème."
+  "message": "Si vous trouvez des erreur, avez des suggestions ou des idées pour ce module complémentaire: veuillez créer un nouveau problème."
   },
    "windows": {
     "message": "Touches de raccourci Windows: Ctrl + Maj + U"
@@ -59,7 +59,7 @@
     "message": "3. Utilisez des raccourcis pour ouvrir le Print Preview"
   },
   "resources3": {
-    "message": "4. Vous pouvez modifier les raccourcis dans about:Addons(Firefox version 66.0 ou ultérieure)\ n\n"
+    "message": "4. Vous pouvez modifier les raccourcis dans about:Addons(Firefox version 66.0 ou ultérieure)\n\n"
   },
   "save_preferences": {
     "message": "Enregistrer les préférences"
