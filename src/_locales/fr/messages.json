@@ -1,84 +1,85 @@
 {
   "extensionName": {
     "message": "Print Preview",
-    "description": "Extension name."
+    "description": "Nom de l'extension"
   },
   "extensionDescription": {
-    "message": "This Add-on works by showing a preview before printing. That can be done by clicking the button on the toolbar, shortcut keys or context menu."
+    "message": "Cet Add-on fonctionne en affichant un aperçu avant l'impression. Cela peut être fait en cliquant sur le bouton de la barre d'outils, des touches de raccourci ou du menu contextuel. ""
   },
   "extensionEnabled": {
-    "message": "Click to preview"
+    "message": "Cliquer pour l'aperçu"
   },
   "works": {
-    "message": "By clicking on the Add-on icon or using the shortcut keys you can have a preview of the page you are accessing before printing, thus providing a paper economy in addition to avoiding repeated impressions, which certainly benefit the nature."
+    "message": "En cliquant sur l'icône Add-on ou en utilisant les touches de raccourci, vous pouvez avoir un aperçu de la page à laquelle vous accédez avant l'impression, offrant ainsi une économie de papier en plus d'éviter les impressions répétées, ce qui profite certainement à la nature."
   },
   "about_title":{
-    "message": "About"
+    "message": "À propos"
   },
   "about":{
-    "message": "About Print Preview"
+    "message": "À propos de Print Preview"
   },
   "note":{
-    "message": "Note: This Add-on is completely free! Please consider make a small donation or write a review at addons.mozilla.org. Thank you!"
+   
+	"message": "Remarque: Cet Add-on est entièrement gratuit! Merci d'envisager de faire un petit don ou d'écrire un commentaire sur addons.mozilla.org. Merci!"
   },
   "bugs": {
-    "message": "If you find any bugs, have any suggestions or some ideas for this Add-on: Please create a new issue."
+	"message": "Si vous trouvez des erreur, avez des suggestions ou des idées pour ce module complémentaire: veuillez créer un nouveau problème."
   },
    "windows": {
-    "message": "Windows shortcut keys: Ctrl + Shift + U"
+    "message": "Touches de raccourci Windows: Ctrl + Maj + U"
   },
   "mac": {
-    "message": "Mac shortcut keys: Command + Shift + U"
+    "message": "Touches de raccourci Mac: Commande + Maj + U"
   },
   "linux": {
-    "message": "Linux shortcut keys: Ctrl + Shift + U"
+    "message": "Touches de raccourci Linux: Ctrl + Maj + U"
   },
   "contextMenu": {
-    "message": "Context menu"
+    "message": "Menu contextuel"
   },
   "shortcuts": {
-    "message": "Shortcuts (Default)"
+    "message": "Raccourcis (Par défaut)"
   },
   "shortcut": {
-    "message": "Shortcut to Print Preview"
+    "message": "Raccourcis pour Print Preview"
   },
   "preferences": {
-    "message": "Preferences"
+    "message": "Préférences"
   },
   "resources": {
-    "message": "The Add-on currently has the following features:"
+    "message": "L'Add-on présente actuellement les fonctionnalités suivantes:"
   },
    "resources0": {
-    "message": "1. Click on the button in toolbar to Print Preview"
+    "message": "1. Cliquez sur le bouton dans la barre d'outils pour Print Preview"
   },
   "resources1": {
-    "message": "2. Enable or disable the context menu to Print Preview"
+    "message": "2. Activez ou désactivez le menu contextuel pour Print Preview"
   },
   "resources2": {
-    "message": "3. Use shortcuts to open the Print Preview"
+    "message": "3. Utilisez des raccourcis pour ouvrir le Print Preview"
   },
   "resources3": {
-    "message": "4. You can edit the shortcuts in about:addons (Firefox version 66.0 or later)\n\n"
+    "message": "4. Vous pouvez modifier les raccourcis dans about:Addons(Firefox version 66.0 ou ultérieure)\ n\n"
   },
   "save_preferences": {
-    "message": "Save preferences"
+    "message": "Enregistrer les préférences"
   },
   "saved_preferences": {
-    "message": "Preferences saved!"
+    "message": "Préférences enregistrées!"
   },
   "description_contextmenu": {
-    "message": "Allow or not the Context menu"
+    "message": "Autoriser ou non le menu contextuel"
   },
   "change_shortcuts": {
-    "message": "Change shortcuts"
+    "message": "Modifier les raccourcis"
   },
     "change_shortcut1": {
-    "message": "1. In your address bar type about:addons"
+    "message": "1. Dans votre barre d'adresse écrivez : about:addons"
   },
   "change_shortcut2": {
-    "message": "2. Click the gear above the installed Add-ons"
+    "message": "2. Cliquez sur l'engrenage a droite de Gestion de vos extensions"
   },
   "change_shortcut3": {
-    "message": "3. Click in Manage Extension Shortcuts"
+    "message": "3. Cliquez sur Gérer les raccourcis d'extensions"
   }
 }
