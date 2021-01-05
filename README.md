@@ -42,6 +42,9 @@ Have a suggestion, doubt or encountered an error? Please open a new [issue](http
 
 Contributions are welcome, feel free to submit a pull :)
 
+### Bitcoin
+[bc1qkxka7h3rxhejefyjp30agzywpyt2hw9manscyw](https://www.blockchain.com/btc/address/bc1qkxka7h3rxhejefyjp30agzywpyt2hw9manscyw)
+
 ## Learn More
 
 To learn more about webextensions development, see this [Mozilla developer Network documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions)
@@ -49,3 +52,5 @@ To learn more about webextensions development, see this [Mozilla developer Netwo
 ## License
 
 This repository is available under the [Mozilla Public License, version 2.0](https://github.com/jhonatasrm/print-preview/blob/master/LICENSE)
+
+
