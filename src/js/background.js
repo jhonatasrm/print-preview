@@ -1,5 +1,8 @@
-browser.browserAction.onClicked.addListener(() => {
-  browser.tabs.printPreview()
+browser.browserAction.onClicked.addListener((tab) => {
+  oldId = tab.id;
+  var creating = browser.tabs.create({openInReaderMode: true, url: tab.url, index: tab.index, openerTabId: oldId});
+  creating.then(onCreated, onError);
+  //browser.tabs.printPreview();
 });
 
 if (localStorage.getItem('contextMenu') == 'undefined' || localStorage.getItem('contextMenu') == null){
