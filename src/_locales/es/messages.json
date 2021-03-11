@@ -4,16 +4,16 @@
     "description": "Extension name."
   },
   "extensionDescription": {
-    "message": "Este complemento funciona mostrando una vista previa antes de imprimir. Esto se puede hacer haciendo clic en el botón de la barra de herramientas, las teclas de método abreviado o el menú contextual."
+    "message": "Este complemento muestra una vista previa antes de imprimir. Esto se puede hacer dando clic en el botón de la barra de herramientas, las teclas de acceso directo o el menú contextual."
   },
   "extensionEnabled": {
     "message": "Haga clic para obtener una vista previa"
   },
   "works": {
-    "message": "Al hacer clic en el icono del complemento o utilizar las teclas de acceso directo puede tener una vista previa de la página a la que está accediendo antes de imprimir, proporcionando así una economía de papel además de evitar impresiones repetidas, que sin duda benefician a la naturaleza."
+    "message": "Haciendo clic en el icono del complemento o utilizando las teclas de acceso directo puede tener una vista previa de la página a la que está accediendo antes de imprimirla, proporcionando así un ahorro de papel, además de evitar impresiones repetidas que sin duda beneficia a la naturaleza."
   },
   "about_title":{
-    "message": "Acerca"
+    "message": "Acerca de"
   },
   "about":{
     "message": "Acerca de Print Preview"
@@ -22,7 +22,7 @@
     "message": "Nota: ¡Este complemento es completamente gratuito! Por favor considere hacer una pequeña donación o escribir una reseña en addons.mozilla.org. ¡Gracias!"
   },
   "bugs": {
-    "message": "Si encuentra algún error, tenga alguna sugerencia o algunas ideas para este complemento: Por favor, cree un nuevo problema."
+    "message": "Si encuentra algún error, tiene alguna sugerencia o idea para este complemento: Por favor, abra un nuevo issue."
   },
    "windows": {
     "message": "Teclas de acceso directo de Windows: Ctrl + Shift + U"
@@ -37,7 +37,7 @@
     "message": "Menú contextual"
   },
   "shortcuts": {
-    "message": "Accesos directos (predeterminado)"
+    "message": "Accesos directos (Predeterminado)"
   },
   "shortcut": {
     "message": "Acceso directo a Print Preview"
@@ -49,13 +49,13 @@
     "message": "El complemento tiene actualmente las siguientes características:"
   },
    "resources0": {
-    "message": "1. Haga clic en el botón de la barra de herramientas para imprimir vista previa"
+    "message": "1. Haga clic en el botón de la barra de herramientas para mostrar la vista previa de impresión"
   },
   "resources1": {
-    "message": "2. Habilite o deshabilite el menú contextual para Imprimir vista previa"
+    "message": "2. Habilite o deshabilite el menú contextual para mostrar la vista previa de impresión"
   },
   "resources2": {
-    "message": "3. Utilice accesos directos para abrir la vista previa de impresión"
+    "message": "3. Utilice los accesos directos para abrir la vista previa de impresión"
   },
   "resources3": {
     "message": "4. Puede editar los accesos directos en about:addons (Firefox versión 66.0 o posterior)\n\n"
@@ -67,18 +67,18 @@
     "message": "¡Preferencias guardadas!"
   },
   "description_contextmenu": {
-    "message": "Permitir o no el menú contextual"
+    "message": "Permitir o no permitir el menú contextual"
   },
   "change_shortcuts": {
-    "message": "Cambiar atajos"
+    "message": "Cambiar accesos directos"
   },
     "change_shortcut1": {
     "message": "1. En la barra de direcciones, escriba about:addons"
   },
   "change_shortcut2": {
-    "message": "2. Haga clic en el engranaje situado encima de los complementos instalados"
+    "message": "2. Haga clic en el engrane situado encima de los complementos instalados"
   },
   "change_shortcut3": {
-    "message": "3. Haga clic en Administrar accesos directos de extensión"
+    "message": "3. Haga clic en administrar los accesos directos de la extensión"
   }
 }
