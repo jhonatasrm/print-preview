@@ -22,7 +22,7 @@ By clicking on the Add-on icon or using the shortcut keys you can have a preview
 2.  Enable or disable the context menu to print preview
 3.  Use shortcuts to open the print preview
 4.  You can edit the shortcuts in about:addons (Firefox version 66.0 or later)
-5.  Translated in 3 languages English, French and Português (do Brasil)
+5.  Translated in 4 languages English, French, Português (do Brasil) and Spanish
 
 ## Shortcuts (Default)
 
@@ -43,8 +43,11 @@ Have a suggestion, doubt or encountered an error? Please open a new [issue](http
 Contributions are welcome, feel free to submit a pull :)
 
 ### Bitcoin (BTC)
+
 [bc1qkxka7h3rxhejefyjp30agzywpyt2hw9manscyw](https://www.blockchain.com/btc/address/bc1qkxka7h3rxhejefyjp30agzywpyt2hw9manscyw)
+
 ### Litecoin (LTC)
+
 LKzFPwvhxCfiXYmQbc1huu75jxsTmmEXbG
 
 ## Learn More
@@ -54,5 +57,3 @@ To learn more about webextensions development, see this [Mozilla developer Netwo
 ## License
 
 This repository is available under the [Mozilla Public License, version 2.0](https://github.com/jhonatasrm/print-preview/blob/master/LICENSE)
-
-
