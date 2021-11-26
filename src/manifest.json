@@ -22,13 +22,13 @@
     "default_icon": "/res/icons/icon@2x.png",
     "theme_icons": [
       {
-        "light": "/res/icons/print_light_theme.svg",
-        "dark": "/res/icons/print_dark_theme.svg",
+        "light": "/res/icons/print_light_theme.png",
+        "dark": "/res/icons/print_dark_theme.png",
         "size": 16
       },
       {
-        "light": "/res/icons/print_light_theme.svg",
-        "dark": "/res/icons/print_dark_theme.svg",
+        "light": "/res/icons/print_light_theme.png",
+        "dark": "/res/icons/print_dark_theme.png",
         "size": 32
       }
     ],
