@@ -12,7 +12,7 @@
     }
   },
   "icons": {
-    "16": "/res/icons/print_dark_theme.svg",
+    "16": "/res/icons/icon.png",
     "32": "/res/icons/icon.png",
     "48": "/res/icons/icon.png",
     "96": "/res/icons/icon@2x.png"
