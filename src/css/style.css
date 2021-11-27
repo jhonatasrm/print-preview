@@ -4,6 +4,51 @@
 .btn-outline-primary {
   cursor: pointer;
 }
+.small-description {
+  margin-top: -10px;
+}
+.d-flex {
+  display: flex;
+}
+.d-column {
+  display: flex;
+  flex-direction: column;
+}
+.input-b {
+  width: 200px;
+  float: right;
+  margin-top: 2px;
+}
+.beta-info {
+  font-weight: bold;
+  font-size: 12px;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.description-beta {
+  font-size: 12px;
+  margin-top: 0px;
+}
+.d-flex-r-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.beta-info-simplify {
+  font-weight: bold;
+  font-size: 12px;
+  align-items: center;
+  margin-top: 2px;
+  margin-left: -10px;
+  color: #22e5ab;
+}
+.d-simplify {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 .down-arrow {
   display: inline;
   position: static;

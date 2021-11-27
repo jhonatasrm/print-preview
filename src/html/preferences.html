@@ -48,30 +48,35 @@
         <div class="col-md-12 col-sm-12" style="margin-top:20px;">
             <label data-i18n="contextMenu">
             </label>
-            <label class="btn btn-outline-primary " style="width:200px;float:right; margin-top:2px;">
+            <label class="btn btn-outline-primary input-b">
                 <input type="radio" name="contextMenu" value="false" checked="checked">Off</label>
-            <label class="btn btn-outline-primary " style="width:200px;float:right;margin-top:2px;">
+            <label class="btn btn-outline-primary input-b">
                 <input type="radio" name="contextMenu" value="true">On</label>
-            <small class="form-text text-muted" data-i18n="description_contextmenu" style="margin-top:-10px;"></small>
+            <small class="form-text text-muted small-description" data-i18n="description_contextmenu"></small>
         </div>
 
-        <div class="col-md-12 col-sm-12" style="margin-top:20px;">
-            <div style="display: flex; justify-content: space-between;">
-            <div style="display: flex; flex-wrap: wrap;">
+        <div class="col-md-12 col-sm-12 d-simplify">
+            <div class="d-column">
+            <div class="d-flex">
                 <label data-i18n="simplifyPage">
                 </label>
-                <p style="color: red;font-size: 10px;" data-i18n="description_beta"></p>
-                <small class="form-text text-muted" data-i18n="description_simplifypage" style="margin-top:-10px;"></small>
+                <p class="beta-info-simplify">BETA</p>
             </div>
-            <div style="display: flex; flex-direction: row-reverse;">
-                <label class="btn btn-outline-primary " style="width:200px;float:right; margin-top:2px;">
+                    <small class="form-text text-muted small-description" data-i18n="description_simplifypage"></small>
+                </div>
+            <div class="d-flex-r-reverse">
+                <label class="btn btn-outline-primary input-b">
                     <input type="radio" name="simplifyPage" value="false" checked="checked">Off</label>
-                <label class="btn btn-outline-primary " style="width:200px;float:right;margin-top:2px;">
+                <label class="btn btn-outline-primary input-b">
                     <input type="radio" name="simplifyPage" value="true">On</label>
-            </div> 
             </div>   
         </div>
     </fieldset>
+    <div style="display: flex;margin-top:10px;">
+    <p class="beta-info">BETA:&nbsp;</p>
+    <p class="description-beta" data-i18n="description_beta"></p>
+    </div>
+
 </main>
 <script src="../js/language.js"></script>
 <script src="../js/preferences.js"></script>
