@@ -60,6 +60,9 @@
   "resources3": {
     "message": "4. You can edit the shortcuts in about:addons (Firefox version 66.0 or later)\n\n"
   },
+  "resources4": {
+    "message": "5. You can simplify the page before print [BETA]\n\n"
+  },
   "save_preferences": {
     "message": "Save preferences"
   },
@@ -68,6 +71,9 @@
   },
   "description_contextmenu": {
     "message": "Allow or not the Context menu"
+  },
+  "description_simplifypage": {
+    "message": "Removes unnecessary items of the Page to print" 
   },
   "change_shortcuts": {
     "message": "Change shortcuts"
@@ -80,5 +86,11 @@
   },
   "change_shortcut3": {
     "message": "3. Click in Manage Extension Shortcuts"
+  },
+  "simplifyPage": {
+    "message": "Simplify Page [BETA]" 
+  },
+  "description_beta":{
+    "message": "It may not work very well on some pages"
   }
 }

@@ -61,6 +61,9 @@
   "resources3": {
     "message": "4. Vous pouvez modifier les raccourcis dans about:Addons(Firefox version 66.0 ou ultérieure)\n\n"
   },
+  "resources4": {
+    "message": "5. You can simplify the page before print [BETA]\n\n"
+  },
   "save_preferences": {
     "message": "Enregistrer les préférences"
   },
@@ -69,6 +72,9 @@
   },
   "description_contextmenu": {
     "message": "Autoriser ou non le menu contextuel"
+  },
+  "description_simplifypage": {
+    "message": "Removes unnecessary items of the Page to print" 
   },
   "change_shortcuts": {
     "message": "Modifier les raccourcis"
@@ -81,5 +87,11 @@
   },
   "change_shortcut3": {
     "message": "3. Cliquez sur Gérer les raccourcis d'extensions"
+  },
+  "simplifyPage": {
+    "message": "Simplify Page [BETA]" 
+  },
+  "description_beta":{
+    "message": "It may not work very well on some pages"
   }
 }

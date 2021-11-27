@@ -60,11 +60,17 @@
   "resources3": {
     "message": "4. Você pode editar os atalhos em about:addons (Firefox versão 66.0 +)\n\n"
   },
+  "resources4": {
+    "message": "5. Você pode simplificar a página antes de imprimir [BETA]\n\n"
+  },
   "save_preferences": {
     "message": "Salvar preferências"
   },
   "description_contextmenu": {
     "message": "Permite ou não o Menu de contexto"
+  },
+  "description_simplifypage": {
+    "message": "Remove itens não necessários da página para imprimir" 
   },
   "saved_preferences": {
     "message": "Preferências salvas!"
@@ -80,5 +86,11 @@
   },
   "change_shortcut3": {
     "message": "3. Clique em Gerenciar atalhos de extensões"
+  },
+  "simplifyPage": {
+    "message": "Simplificar página [BETA]" 
+  },
+  "description_beta":{
+    "message": "Pode não funcionar muito bem em algumas páginas"
   }
 }

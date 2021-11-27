@@ -1,7 +1,11 @@
 browser.browserAction.onClicked.addListener((tab) => {
-  oldId = tab.id;
-  var creating = browser.tabs.create({openInReaderMode: true, url: tab.url, index: tab.index, openerTabId: oldId}).then(startPreview());
-  creating.then(onCreated, onError);
+  if(localStorage.getItem("simplifyPage") == "true"){
+    oldId = tab.id;
+    var creating = browser.tabs.create({openInReaderMode: true, url: tab.url, index: tab.index, openerTabId: oldId}).then(startPreview());
+    creating.then(onCreated, onError);
+  } else {
+    startPreview();
+  }
 });
 
 if (localStorage.getItem('contextMenu') == 'undefined' || localStorage.getItem('contextMenu') == null){
