@@ -6,7 +6,7 @@
 
 ![Print Preview](/src/res/icons/icon@2x.png)
 
-# Print Preview [<img align="right" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png">](https://addons.mozilla.org/en-US/firefox/addon/print-preview-/)
+# Print Preview [<img align="right" style="width:auto;height:32px;" src="https://raw.githubusercontent.com/jhonatasrm/jhonatasrm.github.io/master/images/addon-firefox.png">](https://addons.mozilla.org/en-US/firefox/addon/print-preview-/)
 
 By clicking on the Add-on icon or using the shortcut keys you can have a preview of the page you are accessing before printing, thus providing a paper economy in addition to avoiding repeated impressions, which certainly benefit the nature.
 
